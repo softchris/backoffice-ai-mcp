@@ -2,6 +2,8 @@
 
 Back-office web app where a user enters product title + keywords and generates product descriptions through MCP sampling.
 
+![App screenshot](screenshot.png)
+
 ## Flow
 
 1. Browser sends `POST /api/products/generate-description` with `title` and `keywords`.
